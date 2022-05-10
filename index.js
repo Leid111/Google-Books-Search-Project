@@ -67,6 +67,104 @@ const search = async (searchTerm) => {
     document.getElementById(
         "resultsDescription1"
     ).innerText = `Descripton: ${searchResultTemplate[1].Description}`;
+
+    document.getElementById("resultsImage2").src =
+        searchResultTemplate[2].Image;
+    document.getElementById(
+        "resultsTitle2"
+    ).innerText = `Title: ${searchResultTemplate[2].Title}`;
+    document.getElementById(
+        "resultsAuthor2"
+    ).innerText = `Author: ${searchResultTemplate[2].Author}`;
+    document.getElementById(
+        "resultsDescription2"
+    ).innerText = `Descripton: ${searchResultTemplate[2].Description}`;
+
+    document.getElementById("resultsImage3").src =
+        searchResultTemplate[3].Image;
+    document.getElementById(
+        "resultsTitle3"
+    ).innerText = `Title: ${searchResultTemplate[3].Title}`;
+    document.getElementById(
+        "resultsAuthor3"
+    ).innerText = `Author: ${searchResultTemplate[3].Author}`;
+    document.getElementById(
+        "resultsDescription3"
+    ).innerText = `Descripton: ${searchResultTemplate[3].Description}`;
+
+    document.getElementById("resultsImage4").src =
+        searchResultTemplate[4].Image;
+    document.getElementById(
+        "resultsTitle4"
+    ).innerText = `Title: ${searchResultTemplate[4].Title}`;
+    document.getElementById(
+        "resultsAuthor4"
+    ).innerText = `Author: ${searchResultTemplate[4].Author}`;
+    document.getElementById(
+        "resultsDescription4"
+    ).innerText = `Descripton: ${searchResultTemplate[4].Description}`;
+    console.log(searchResultTemplate);
+
+    document.getElementById("resultsImage5").src =
+        searchResultTemplate[5].Image;
+    document.getElementById(
+        "resultsTitle5"
+    ).innerText = `Title: ${searchResultTemplate[5].Title}`;
+    document.getElementById(
+        "resultsAuthor5"
+    ).innerText = `Author: ${searchResultTemplate[5].Author}`;
+    document.getElementById(
+        "resultsDescription5"
+    ).innerText = `Descripton: ${searchResultTemplate[5].Description}`;
+
+    document.getElementById("resultsImage6").src =
+        searchResultTemplate[6].Image;
+    document.getElementById(
+        "resultsTitle6"
+    ).innerText = `Title: ${searchResultTemplate[6].Title}`;
+    document.getElementById(
+        "resultsAuthor6"
+    ).innerText = `Author: ${searchResultTemplate[6].Author}`;
+    document.getElementById(
+        "resultsDescription6"
+    ).innerText = `Descripton: ${searchResultTemplate[6].Description}`;
+
+    document.getElementById("resultsImage7").src =
+        searchResultTemplate[7].Image;
+    document.getElementById(
+        "resultsTitle7"
+    ).innerText = `Title: ${searchResultTemplate[7].Title}`;
+    document.getElementById(
+        "resultsAuthor7"
+    ).innerText = `Author: ${searchResultTemplate[7].Author}`;
+    document.getElementById(
+        "resultsDescription7"
+    ).innerText = `Descripton: ${searchResultTemplate[7].Description}`;
+
+    document.getElementById("resultsImage8").src =
+        searchResultTemplate[8].Image;
+    document.getElementById(
+        "resultsTitle8"
+    ).innerText = `Title: ${searchResultTemplate[8].Title}`;
+    document.getElementById(
+        "resultsAuthor8"
+    ).innerText = `Author: ${searchResultTemplate[8].Author}`;
+    document.getElementById(
+        "resultsDescription8"
+    ).innerText = `Descripton: ${searchResultTemplate[8].Description}`;
+
+    document.getElementById("resultsImage9").src =
+        searchResultTemplate[9].Image;
+    document.getElementById(
+        "resultsTitle9"
+    ).innerText = `Title: ${searchResultTemplate[9].Title}`;
+    document.getElementById(
+        "resultsAuthor9"
+    ).innerText = `Author: ${searchResultTemplate[9].Author}`;
+    document.getElementById(
+        "resultsDescription9"
+    ).innerText = `Descripton: ${searchResultTemplate[9].Description}`;
+
     console.log(searchResultTemplate);
 };
 
