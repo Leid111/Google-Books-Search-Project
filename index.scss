@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px black solid;
     color: #54101d;
 }
 
@@ -12,15 +11,15 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    border: 3px solid black;
+    margin-bottom: 5%;
 }
 .resultsGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
-    border: 2px solid black;
+
     &_one {
-        border: 2px solid pink;
+        border: 2px solid #47596f;
     }
 }
 
