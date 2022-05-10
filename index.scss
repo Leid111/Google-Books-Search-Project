@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     color: #54101d;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .searchBar {
@@ -11,7 +12,7 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 .resultsGrid {
     display: grid;
@@ -19,8 +20,54 @@
     grid-gap: 5px;
 
     &_one {
+        margin: 1%;
         border: 2px solid #47596f;
     }
+    &_two {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_three {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_four {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_five {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_six {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_seven {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_eight {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_nine {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+    &_ten {
+        margin: 1%;
+        border: 2px solid #47596f;
+    }
+}
+
+img {
+    margin: 1%;
+}
+
+p {
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 // .searchBar_box {
