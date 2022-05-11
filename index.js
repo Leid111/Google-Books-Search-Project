@@ -8,8 +8,6 @@ const getSearchUrl = (searchTerm) => {
     return urlBase + searchTerm;
 };
 
-console.log(getSearchUrl("javascript"));
-
 const search = async (searchTerm) => {
     const requestPromise = fetch(getSearchUrl(searchTerm));
     const response = await requestPromise;
@@ -167,6 +165,15 @@ const search = async (searchTerm) => {
 
     console.log(searchResultTemplate);
 };
+
+// const buttonSearch = document.getElementById("buttonSearch");
+// buttonSearch.addEventListener("click", search(searchTerm));
+
+buttonSearch.addEventListener("click", (e) => {
+    e.preventDefault();
+    const searchBarTerm = document.getElementById("searchBarTerm").value;
+    search(searchBarTerm);
+});
 
 // have a loop for all the books
 
