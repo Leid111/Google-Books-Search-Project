@@ -55,3 +55,18 @@ buttonSearch.addEventListener("click", (e) => {
     const searchBarTerm = document.getElementById("searchBarTerm").value;
     search(searchBarTerm);
 });
+
+buttonClearSearch.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.getElementById("searchBarTerm").value = "";
+    document.getElementById("results0").innerText = "";
+    document.getElementById("results1").innerText = "";
+    document.getElementById("results2").innerText = "";
+    document.getElementById("results3").innerText = "";
+    document.getElementById("results4").innerText = "";
+    document.getElementById("results5").innerText = "";
+    document.getElementById("results6").innerText = "";
+    document.getElementById("results7").innerText = "";
+    document.getElementById("results8").innerText = "";
+    document.getElementById("results9").innerText = "";
+});

@@ -9,6 +9,7 @@
 
 .searchBar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,46 +19,41 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
+    @media only screen and (max-width: 800px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
 
     &_one {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_two {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_three {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_four {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_five {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_six {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_seven {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_eight {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_nine {
         margin: 1%;
-        border: 2px solid #47596f;
     }
     &_ten {
         margin: 1%;
-        border: 2px solid #47596f;
     }
 }
 
@@ -70,16 +66,33 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-// .searchBar_box {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     border: 2px solid #47596f;
-// }
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #47596f;
+    width: 40vw;
+    height: 2vw;
+    font-size: medium;
+    margin-bottom: 2%;
+}
 
-button {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // border: 2px solid #47596f;
+#buttonSearch {
+    background-color: #47596f;
+    color: #54101d;
+    font-weight: bold;
+    height: 2vw;
+    &:hover {
+        background-color: #708cad;
+    }
+}
+
+#buttonClearSearch {
+    background-color: #47596f;
+    color: #54101d;
+    font-weight: bold;
+    height: 2vw;
+    &:hover {
+        background-color: #708cad;
+    }
 }
