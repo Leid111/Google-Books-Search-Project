@@ -8,7 +8,7 @@ const createResultsElement = (array) => {
         const parentImage = document.getElementById("results" + resultNumber);
         parentImage.appendChild(newElementImage);
 
-        const newElementTitle = document.createElement("p");
+        const newElementTitle = document.createElement("h3");
         const textNodeTitle = document.createTextNode(
             `Title: ${array[resultNumber].Title}`
         );
@@ -16,7 +16,7 @@ const createResultsElement = (array) => {
         const parentTitle = document.getElementById("results" + resultNumber);
         parentTitle.appendChild(newElementTitle);
 
-        const newElementAuthor = document.createElement("p");
+        const newElementAuthor = document.createElement("h4");
         const textNodeAuthor = document.createTextNode(
             `Author: ${array[resultNumber].Author}`
         );
