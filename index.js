@@ -8,6 +8,7 @@ const getSearchUrl = (searchTerm) => {
 };
 
 const search = async (searchTerm) => {
+    clearResults();
     const requestPromise = fetch(getSearchUrl(searchTerm));
     const response = await requestPromise;
     const searchObject = await response.json();
@@ -58,6 +59,10 @@ buttonSearch.addEventListener("click", (e) => {
 
 buttonClearSearch.addEventListener("click", (e) => {
     e.preventDefault();
+    clearResults();
+});
+
+const clearResults = () => {
     document.getElementById("searchBarTerm").value = "";
     document.getElementById("results0").innerText = "";
     document.getElementById("results1").innerText = "";
@@ -69,4 +74,4 @@ buttonClearSearch.addEventListener("click", (e) => {
     document.getElementById("results7").innerText = "";
     document.getElementById("results8").innerText = "";
     document.getElementById("results9").innerText = "";
-});
+};
